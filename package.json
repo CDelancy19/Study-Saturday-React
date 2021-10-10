@@ -4,7 +4,7 @@
   "description": "fun w express, sequelize, and react!",
   "main": "index.js",
   "scripts": {
-    "start": "webpack -w --mode development & nodemon app.js",
+    "start": "webpack -w --mode development && nodemon app.js",
     "build": "webpack --mode production",
     "build-watch": "webpack -w --mode development",
     "seed": "node seed.js"
